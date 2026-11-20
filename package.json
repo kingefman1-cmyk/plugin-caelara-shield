@@ -1,6 +1,7 @@
 {
   "name": "@caelaralabs/plugin-caelara-shield",
-  "version": "0.1.0",
+  "packageType": "plugin",
+  "version": "0.1.1",
   "description": "Screened swap and bridge quotes for elizaOS agents: heuristic token screening, unsigned transactions, EVM and Solana",
   "type": "module",
   "main": "dist/index.js",
