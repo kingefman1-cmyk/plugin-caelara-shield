@@ -1,18 +1,30 @@
 {
-  "name": "plugin-caelara-shield",
+  "name": "@caelaralabs/plugin-caelara-shield",
   "version": "0.1.0",
   "description": "Screened swap and bridge quotes for elizaOS agents: heuristic token screening, unsigned transactions, EVM and Solana",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "images", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "images",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["plugin", "elizaos", "swap", "bridge", "security", "web3"],
+  "keywords": [
+    "plugin",
+    "elizaos",
+    "swap",
+    "bridge",
+    "security",
+    "web3"
+  ],
   "license": "MIT",
   "author": "Caelara Labs <ops@caelaralabs.com>",
   "homepage": "https://caelaralabs.com/shield/",
@@ -22,6 +34,9 @@
   },
   "bugs": {
     "url": "https://github.com/kingefman1-cmyk/plugin-caelara-shield/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "@elizaos/core": "^2.0.5"

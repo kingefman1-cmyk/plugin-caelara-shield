@@ -1,4 +1,4 @@
-# plugin-caelara-shield
+# @caelaralabs/plugin-caelara-shield
 
 Screened swap and bridge quotes for elizaOS agents, from [Caelara Shield](https://caelaralabs.com/shield/). The plugin returns quotes and **unsigned** transactions only. It never signs, never holds keys and never sends funds: your agent's wallet signs and submits.
 
@@ -14,11 +14,11 @@ Both declare their inputs as action `parameters`, so the model extracts and vali
 ## Install
 
 ```bash
-bun add plugin-caelara-shield
+bun add @caelaralabs/plugin-caelara-shield
 ```
 
 ```ts
-import caelaraShieldPlugin from 'plugin-caelara-shield';
+import caelaraShieldPlugin from '@caelaralabs/plugin-caelara-shield';
 
 export const character = {
   name: 'Trader',
